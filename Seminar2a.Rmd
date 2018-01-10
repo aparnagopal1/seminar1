@@ -2,7 +2,9 @@
 title: "Seminar 2a modified"
 author: "Aparna"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -47,6 +49,9 @@ plot(pressure)
 [This is a link to GitHub](https://github.com/)
 
 ![This ia an image of a puppy](http://cdn2-www.dogtime.com/assets/uploads/gallery/30-impossibly-cute-puppies/impossibly-cute-puppy-8.jpg)
+
+
+
 
 
 
